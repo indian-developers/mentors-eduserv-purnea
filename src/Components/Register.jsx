@@ -9,6 +9,8 @@ function Register() {
     const [formData, setFormData] = useState({
         name: '',
         mobile: '',
+        city: '',
+        class: '',
         message: '',
     });
 
@@ -40,6 +42,8 @@ function Register() {
                 setFormData({
                     name: '',
                     mobile: '',
+                    city: '',
+                    class: '',
                     message: '',
                 });
             })
@@ -62,13 +66,13 @@ function Register() {
                         <form
                             className="ml-auto space-y-4"
                             method="post"
-                            action="https://sheetdb.io/api/v1/1fj6x5rl697sp"
+                            action="https://sheetdb.io/api/v1/hvp7xk2tx9tmk"
                             id="sheetdb-form"
                             onSubmit={handleSubmit}
                         >
                             <div>
-                                <h3 className='text-2xl font-bold text-txtcol'>
-                                    Book your seat now..
+                                <h3 className='text-xl font-bold text-txtcol'>
+                                    Book scholarship and admission details
                                 </h3>
                             </div>
                             <input
@@ -86,6 +90,24 @@ function Register() {
                                 name="mobile"
                                 required
                                 value={formData.mobile}
+                                onChange={handleInputChange}
+                                className="w-full rounded-md py-3 px-4 bg-white border-2 text-gray-800 text-sm outline-blue-500 focus:bg-transparent"
+                            />
+                            <input
+                                type="text"
+                                placeholder="City Name"
+                                name="city"
+                                required
+                                value={formData.city}
+                                onChange={handleInputChange}
+                                className="w-full rounded-md py-3 px-4 bg-white border-2 text-gray-800 text-sm outline-blue-500 focus:bg-transparent"
+                            />
+                            <input
+                                type="number"
+                                placeholder="Class Name"
+                                name="class"
+                                required
+                                value={formData.class}
                                 onChange={handleInputChange}
                                 className="w-full rounded-md py-3 px-4 bg-white border-2 text-gray-800 text-sm outline-blue-500 focus:bg-transparent"
                             />
