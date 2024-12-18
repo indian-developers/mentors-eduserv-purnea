@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto";
+}
+
+.header {
+  border-bottom: 0.2px solid rgba(234, 231, 231, 0.671);
+  /* background: radial-gradient(#4f46e4 15%, transparent 16%), linear-gradient(45deg, transparent 49%, #4f46e4 49% 51%, transparent 51%), linear-gradient(-45deg, transparent 49%, #4f46e4 49% 51%, transparent 51%);
+    background-size: 1em 1em;
+    background-color: #ffffff;
+    opacity: 0.75 */
+}
+
+.hero {
+  background: hsla(0, 0%, 100%, 1);
+
+  background: linear-gradient(45deg,
+      hsla(0, 0%, 100%, 1) 0%,
+      hsla(0, 0%, 100%, 1) 54%,
+      hsla(300, 67%, 94%, 1) 100%);
+
+  background: -moz-linear-gradient(45deg,
+      hsla(0, 0%, 100%, 1) 0%,
+      hsla(0, 0%, 100%, 1) 54%,
+      hsla(300, 67%, 94%, 1) 100%);
+
+  background: -webkit-linear-gradient(45deg,
+      hsla(0, 0%, 100%, 1) 0%,
+      hsla(0, 0%, 100%, 1) 54%,
+      hsla(300, 67%, 94%, 1) 100%);
+}
+
+.about {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: linear-gradient(#ff7629 1px, transparent 1px),
+    linear-gradient(to right, #ff7629 1px, #e5e5f7 1px);
+  background-size: 20px 20px;
+}
+
+h2 {
+  gap: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2::after {
+  content: "";
+  height: 2px;
+  width: 80px;
+  background-color: #f26b0f;
+  margin: auto 0px;
+}
+
+.register {
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(12.1px);
+  border: 1px solid #f26b0f;
+}
