@@ -5,15 +5,13 @@ import { MdVerifiedUser } from "react-icons/md";
 function Hero() {
     return (
         <div>
-            <div className="bg-white hero flex justify-center items-center">
-                <div className="flex justify-between items-center w-[50vw] py-28">
+            <div className="bg-white hero flex justify-center items-center py-12 md:py-28">
+                <div className="flex flex-col md:flex-row justify-between items-center w-[80vw] md:w-[50vw]">
                     <div className="">
-                        <span className="w-20 h-2 mb-12">
-                        </span>
-                        <h1 className="font-bebas-neue text-2xl font-black flex flex-col leading-none text-gray-600 mb-4">
-                            Mentors Eduserv अब आपके शहर पुर्नीया में
+                        <h1 className="font-bebas-neue text-center md:text-justify text-2xl font-black flex flex-col text-gray-600 mb-4">
+                            Mentors Eduserv अब आपके शहर पूर्णिया में
                         </h1>
-                        <p className="text-sm sm:text-base text-gray-500">
+                        <p className="text-sm sm:text-base text-gray-500 text-center">
                             Get Upto 100% Scholarship - Admission cum Scholarship Test (ACST)
                         </p>
                         <ul className='text-gray-500'>
@@ -30,16 +28,18 @@ function Hero() {
                                 KVPY and Olympiad
                             </li>
                         </ul>
-                        <div className="flex mt-8">
-                            <a href="tel:7667430491" className="uppercase py-2 px-4 rounded-lg bg-btnbg border-2 border-transparent text-white text-md mr-4 hover:opacity-85">
-                                Call Now
-                            </a>
-                            <a href="https://wa.me/+917667430491" target='_blank' className="py-2 px-4 rounded-lg bg-transparent border-2 flex justify-center items-center border-green-500 hover:bg-btnbg hover:text-white text-md">
-                                <FaWhatsapp size={26} className='inline text-green-500' />
-                                <p>
-                                    Whatsapp
-                                </p>
-                            </a>
+                        <div className="flex justify-center my-8">
+                            <div className='flex'>
+                                <a href="tel:7667430491" className="uppercase py-2 px-4 rounded-lg bg-btnbg border-2 border-transparent text-white text-md mr-4 hover:opacity-85">
+                                    Call Now
+                                </a>
+                                <a href="https://wa.me/+917667430491" target='_blank' className="py-2 px-4 rounded-lg bg-transparent border-2 flex justify-center items-center border-green-500 hover:bg-btnbg hover:text-white text-md">
+                                    <FaWhatsapp size={26} className='inline text-green-500' />
+                                    <p>
+                                        Whatsapp
+                                    </p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className="">
