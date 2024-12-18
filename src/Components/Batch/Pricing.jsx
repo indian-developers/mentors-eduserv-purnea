@@ -2,9 +2,9 @@ import React from "react";
 
 const Pricing = () => {
     return (
-        <section className="relative z-10 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
+        <section className="relative overflow-hidden bg-white py-10">
             <div className="container mx-auto">
-                <div className="-mx-4 flex flex-wrap">
+                <div className="-mx-4 flex flex-wrap" >
                     <div className="w-full px-4">
                         <div className="mx-auto mb-[60px] max-w-[510px] text-center">
                             <span className="mb-2 block text-lg font-semibold text-txtcol">
@@ -18,16 +18,16 @@ const Pricing = () => {
                             </p>
                         </div>
                     </div>
-                </div>
+                </div >
 
                 <div className="-mx-4 flex flex-wrap justify-center">
                     <div className="-mx-4 flex flex-wrap">
                         <PricingCard
-                            type="Foundation"
-                            price="$59"
+                            type="1"
+                            price="JEE(Mains & Adv.)"
                             subscription="year"
-                            description="Perfect for using in a personal website or a client project."
-                            buttonText="Choose Personal"
+                            description="Ace the IIT JEE like a pro from your Purnea."
+                            buttonText="Call Us"
                         >
                             <List>1 User</List>
                             <List>All UI components</List>
@@ -37,11 +37,11 @@ const Pricing = () => {
                             <List>3 Months support</List>
                         </PricingCard>
                         <PricingCard
-                            type="Business"
-                            price="$199"
+                            type="2"
+                            price="NEET UG"
                             subscription="year"
-                            description="Perfect for using in a personal website or a client project."
-                            buttonText="Choose Business"
+                            description="Ace the NEET UG like a pro from your Purnea."
+                            buttonText="Call Us"
                             active
                         >
                             <List>5 User</List>
@@ -52,11 +52,10 @@ const Pricing = () => {
                             <List>4 Months support</List>
                         </PricingCard>
                         <PricingCard
-                            type="Professional"
-                            price="$256"
-                            subscription="year"
-                            description="Perfect for using in a personal website or a client project."
-                            buttonText="Choose Professional"
+                            type="3"
+                            price="Foundation(6 - 10)"
+                            description="Build foundation 4 JEE and NEET from Purnea."
+                            buttonText="Call Us"
                         >
                             <List>Unlimited User</List>
                             <List>All UI components</List>
@@ -67,8 +66,8 @@ const Pricing = () => {
                         </PricingCard>
                     </div>
                 </div>
-            </div>
-        </section>
+            </div >
+        </section >
     );
 };
 
@@ -86,15 +85,12 @@ const PricingCard = ({
     return (
         <>
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-                <div className="relative z-10 mb-10 overflow-hidden rounded-[10px] border-2 border-stroke bg-white px-8 py-10 shadow-pricing dark:border-dark-3 dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]">
+                <div className="relative mb-4 overflow-hidden rounded-[10px] border-2 border-stroke bg-white px-8 py-10 shadow-pricing dark:border-dark-3 dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]">
                     <span className="mb-3 block text-lg font-semibold text-primary">
                         {type}
                     </span>
-                    <h2 className="mb-5 text-[42px] font-bold text-dark dark:text-white">
+                    <h2 className="mb-5 text-[30px] font-bold text-gray-500">
                         {price}
-                        <span className="text-base font-medium text-body-color dark:text-dark-6">
-                            / {subscription}
-                        </span>
                     </h2>
                     <p className="mb-8 border-b border-stroke pb-8 text-base text-body-color dark:border-dark-3 dark:text-dark-6">
                         {description}
@@ -102,10 +98,7 @@ const PricingCard = ({
                     <div className="mb-9 flex flex-col gap-[14px]">{children}</div>
                     <a
                         href="/#"
-                        className={` ${active
-                            ? "block w-full rounded-md border border-primary bg-primary p-3 text-center text-base font-medium text-white transition hover:bg-opacity-90"
-                            : "block w-full rounded-md border border-stroke bg-transparent p-3 text-center text-base font-medium text-primary transition hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3"
-                            } `}
+                        className="px-8 rounded-md py-2 bg-blue-500 text-white"
                     >
                         {buttonText}
                     </a>

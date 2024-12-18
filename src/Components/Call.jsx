@@ -36,7 +36,7 @@ const Call = () => {
         <>
             {isVisible && (
                 <Link to={"tel:8210864098"} target="_blank" className="hover:opacity-85 transition-all">
-                    <div className="bg-btnbg p-4 md:p-4 rounded-full inline-block fixed bottom-12 right-4">
+                    <div className="bg-btnbg p-4 md:p-4 rounded-full inline-block fixed bottom-12 right-4 animate-bounce">
                         <IoCallSharp size={28} color="white" />
                     </div>
                 </Link>
