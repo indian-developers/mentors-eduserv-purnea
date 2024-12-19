@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Hero from './Components/Hero';
 import Register from './Components/Register';
 import Blog from './Components/Blog/Blog';
-import Pricing from "../src/Components/Batch/Pricing"
+import Batch from "../src/Components/Batch/Batch"
 import Footer from './Components/Footer';
 import Call from './Components/Call';
 import ContactPop from './Components/ContactPop';
@@ -21,7 +21,7 @@ function App() {
             <>
               <Hero />
               <Register />
-              <Pricing />
+              <Batch />
               <Blog />
             </>
           }
