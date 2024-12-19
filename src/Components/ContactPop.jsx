@@ -64,6 +64,8 @@ function ContactPop() {
                 setFormData({
                     name: '',
                     mobile: '',
+                    city: '',
+                    class: '',
                     message: '',
                 });
                 onClose(); // Close the modal after successful submission
@@ -86,7 +88,7 @@ function ContactPop() {
                             <form
                                 className="ml-auto space-y-4"
                                 method="post"
-                                action="https://sheetdb.io/api/v1/1fj6x5rl697sp"
+                                action="https://sheetdb.io/api/v1/hvp7xk2tx9tmk"
                                 id="sheetdb-form"
                                 onSubmit={handleSubmit}
                             >
@@ -97,7 +99,7 @@ function ContactPop() {
                                     required
                                     value={formData.name}
                                     onChange={handleInputChange}
-                                    className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent"
+                                    className="w-full rounded-md py-3 px-4 bg-white border-2 text-gray-800 text-sm outline-blue-500 focus:bg-transparent"
                                 />
                                 <input
                                     type="number"
@@ -106,7 +108,25 @@ function ContactPop() {
                                     required
                                     value={formData.mobile}
                                     onChange={handleInputChange}
-                                    className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-blue-500 focus:bg-transparent"
+                                    className="w-full rounded-md py-3 px-4 bg-white border-2 text-gray-800 text-sm outline-blue-500 focus:bg-transparent"
+                                />
+                                <input
+                                    type="text"
+                                    placeholder="City Name"
+                                    name="city"
+                                    required
+                                    value={formData.city}
+                                    onChange={handleInputChange}
+                                    className="w-full rounded-md py-3 px-4 bg-white border-2 text-gray-800 text-sm outline-blue-500 focus:bg-transparent"
+                                />
+                                <input
+                                    type="number"
+                                    placeholder="Class Name"
+                                    name="class"
+                                    required
+                                    value={formData.class}
+                                    onChange={handleInputChange}
+                                    className="w-full rounded-md py-3 px-4 bg-white border-2 text-gray-800 text-sm outline-blue-500 focus:bg-transparent"
                                 />
                                 {/* Hidden field for the current date and time */}
                                 <input type="hidden" id="currentDateTime" name="currentDateTime" />
@@ -117,7 +137,7 @@ function ContactPop() {
                                     required
                                     value={formData.message}
                                     onChange={handleInputChange}
-                                    className="w-full rounded-md px-4 bg-gray-100 text-gray-800 text-sm pt-3 outline-blue-500 focus:bg-transparent"
+                                    className="w-full rounded-md px-4 border-2 bg-white text-gray-800 text-sm pt-3 outline-blue-500 focus:bg-transparent"
                                 ></textarea>
                                 <button
                                     type="submit"
