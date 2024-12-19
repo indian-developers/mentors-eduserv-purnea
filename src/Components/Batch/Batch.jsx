@@ -34,7 +34,7 @@ export default function Batch() {
         <Box py={12}>
             <VStack spacing={2} textAlign="center">
                 <Heading as="h2" fontSize="2xl">
-                    Our Pricing
+                    Our Batches
                 </Heading>
                 <Text fontSize="lg" color={'gray.500'}>
                     Want to get scholarship and admission details? Call us today.
@@ -118,7 +118,7 @@ export default function Batch() {
                                 </ListItem>
                             </List>
                             <Box w="80%" pt={7}>
-                                <Link to={"https://api.whatsapp.com/send?phone=+918210864098%20&text=Hello%20%F0%9F%91%8B"} target='blank'>
+                                <Link to={"tel:7667430491"} target='blank'>
                                     <Button w="full" colorScheme="red" variant="outline">
                                         Call Now
                                     </Button>
@@ -160,7 +160,7 @@ export default function Batch() {
                                 </ListItem>
                             </List>
                             <Box w="80%" pt={7}>
-                                <Link to={"https://api.whatsapp.com/send?phone=+918210864098%20&text=Hello%20%F0%9F%91%8B"} target='blank'>
+                                <Link to={"tel:7667430491"} target='blank'>
                                     <Button w="full" colorScheme="red" variant="outline">
                                         Call Now
                                     </Button>

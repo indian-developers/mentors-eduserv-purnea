@@ -12,8 +12,8 @@ function Social() {
     }, []);
 
     const handleScroll = () => {
-        if (window.innerWidth > 2000) {
-            if (window.pageYOffset > 150 && window.pageYOffset < 2860) {
+        if (window.innerWidth > 768) {
+            if (window.pageYOffset > 190 && window.pageYOffset < 2860) {
                 setIsVisible(true);
             }
             else {

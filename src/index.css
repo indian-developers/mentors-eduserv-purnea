@@ -64,3 +64,7 @@ h2::after {
   -webkit-backdrop-filter: blur(12.1px);
   border: 1px solid #f26b0f;
 }
+
+.slick-arrow::before {
+  background-color: #f26b0f;
+}

@@ -10,6 +10,7 @@ import Footer from './Components/Footer';
 import Call from './Components/Call';
 import ContactPop from './Components/ContactPop';
 import Social from './Components/Social';
+import Gallery from './Components/Gallery/Gallery';
 function App() {
   return (
     <Router>
@@ -21,6 +22,7 @@ function App() {
             <>
               <Hero />
               <Register />
+              <Gallery />
               <Batch />
               {/* <Blog /> */}
             </>
