@@ -22,7 +22,7 @@ function App() {
               <Hero />
               <Register />
               <Batch />
-              <Blog />
+              {/* <Blog /> */}
             </>
           }
         />

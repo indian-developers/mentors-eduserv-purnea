@@ -75,23 +75,11 @@ function ContactPop() {
     };
     return (
         <div>
-            <button
-                className="bg-primarybg text-white hover:opacity-85 font-bold py-2 px-4 rounded hidden md:flex"
-                onClick={() => handleSizeClick('xl')}
-            >
-                <div className='flex items-center justify-center'>
-                    <span className='mr-1'>User</span>
-                    <span className="relative h-3 w-3 flex mx-auto">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                        <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
-                    </span>
-                </div>
-            </button>
 
             <Modal onClose={onClose} size={size} isOpen={isOpen} isCentered>
                 <ModalOverlay />
                 <ModalContent>
-                    <ModalHeader className='text-center'>Book your seat</ModalHeader>
+                    <ModalHeader className='text-center'>Get admission details?</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>
                         <div className='flex justify-center'>

@@ -27,12 +27,11 @@ const BlogCard = (props) => {
                     {
                         blogImg.length === 0 ? (
                             <div className='bg-gray-200 w-64 rounded-md h-32'>
-
                             </div>
                         ) : (
                             <Image
                                 src={blogImg.source_url}
-                                alt='Marriage Biodata Online'
+                                alt='Mentors '
                                 borderRadius='lg' loading="lazy" h={36}
                             />
                         )
