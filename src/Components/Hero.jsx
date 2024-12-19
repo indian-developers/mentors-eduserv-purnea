@@ -30,10 +30,10 @@ function Hero() {
                         </ul>
                         <div className="flex justify-center md:justify-normal my-8">
                             <div className='flex'>
-                                <a href="tel:7667430491" className="uppercase py-2 px-4 rounded-lg bg-btnbg border-2 border-transparent text-white text-md mr-4 hover:opacity-85">
+                                <a href="tel:9155588414" className="uppercase py-2 px-4 rounded-lg bg-btnbg border-2 border-transparent text-white text-md mr-4 hover:opacity-85">
                                     Call Now
                                 </a>
-                                <a href="https://wa.me/+917667430491" target='_blank' className="py-2 px-4 rounded-lg bg-transparent border-2 flex justify-center items-center border-green-500 hover:bg-btnbg hover:text-white text-md">
+                                <a href="https://wa.me/+919155588414" target='_blank' className="py-2 px-4 rounded-lg bg-transparent border-2 flex justify-center items-center border-green-500 hover:bg-btnbg hover:text-white text-md">
                                     <FaWhatsapp size={26} className='inline text-green-500' />
                                     <p>
                                         Whatsapp

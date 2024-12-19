@@ -12,9 +12,9 @@ const Header = () => {
                 </Link>
             </div>
             <div className="mx-4 md:mx-0">
-                <Link to={"tel:7667430491"}>
+                <Link to={"tel:9155588414"}>
                     <button className="bg-btnbg px-2 py-2 rounded text-white flex justify-center items-center hover:opacity-85 font-semibold">
-                        Call: 7667430491
+                        Call: 9155588414
                     </button>
                 </Link>
             </div>

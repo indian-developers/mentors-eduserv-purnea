@@ -72,7 +72,7 @@ export default function Batch() {
                                 </ListItem>
                             </List>
                             <Box w="80%" pt={7}>
-                                <Link to={"tel:7667430491"} target='blank'>
+                                <Link to={"tel:9155588414"} target='blank'>
                                     <Button w="full" colorScheme="red" variant="outline">
                                         Call Now
                                     </Button>
@@ -118,7 +118,7 @@ export default function Batch() {
                                 </ListItem>
                             </List>
                             <Box w="80%" pt={7}>
-                                <Link to={"tel:7667430491"} target='blank'>
+                                <Link to={"tel:9155588414"} target='blank'>
                                     <Button w="full" colorScheme="red" variant="outline">
                                         Call Now
                                     </Button>
@@ -160,7 +160,7 @@ export default function Batch() {
                                 </ListItem>
                             </List>
                             <Box w="80%" pt={7}>
-                                <Link to={"tel:7667430491"} target='blank'>
+                                <Link to={"tel:9155588414"} target='blank'>
                                     <Button w="full" colorScheme="red" variant="outline">
                                         Call Now
                                     </Button>
