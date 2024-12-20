@@ -36,10 +36,10 @@ const Footer = () => {
                 </div>
                 <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400 text-center mt-4">
                     © 2024{' '}
-                    <a href="https://www.mentorsedupurnea.com" className="hover:underline">
+                    <a href="https://www.mentorsedupurnea.in" className="hover:underline">
                         Mentors Eduserv Purnea
                     </a>
-                    . All Rights Reserved.
+                    &nbsp; | NH-31, opposite Station Club Durga Mandir, near Panchmukhi Mandir, Navratan Hatta, Purnia, Bihar 854301
                 </span>
             </div>
         </footer>
