@@ -39,7 +39,7 @@ const Footer = () => {
                     <a href="https://www.mentorsedupurnea.in" className="hover:underline">
                         Mentors Eduserv Purnea
                     </a>
-                    &nbsp; | NH-31, opposite Station Club Durga Mandir, near Panchmukhi Mandir, Navratan Hatta, Purnia, Bihar 854301
+                    &nbsp; | Ground Floor, Indira Nagar Housing Board Colony, opposite Manas Bharti School, Pratap Nagar, Purnia, Bihar 854301
                 </span>
             </div>
         </footer>
