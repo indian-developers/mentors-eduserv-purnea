@@ -19,10 +19,6 @@ const MobMenu = () => {
                         </MenuButton>
                         <MenuList>
                             <MenuItem as={NavLink} to={"/"} className='font-bold text-navcol'>Home</MenuItem>
-                            <MenuItem className='font-bold text-navcol' as={NavLink} to={"/services"}>Services</MenuItem>
-                            <MenuItem className='font-bold text-navcol' as={NavLink} to={"https://blog.indiandevelopers.org"} target='_blank'>Blog</MenuItem>
-                            <MenuItem as={NavLink} to="/about" className='font-bold text-navcol'>About</MenuItem>
-                            <MenuItem as={NavLink} to="/contact" className='font-bold text-navcol'>Contact</MenuItem>
                         </MenuList>
                     </>
                 )}
