@@ -148,15 +148,15 @@ export default function Batch() {
                             <List spacing={3} textAlign="start" px={12}>
                                 <ListItem>
                                     <ListIcon as={FaCheckCircle} color="green.500" />
-                                    Preparing the students for both, Class 12 BOARD Exam, JEE (MAIN & ADVANCED).
+                                    Scoring high marks in School Examination
                                 </ListItem>
                                 <ListItem>
                                     <ListIcon as={FaCheckCircle} color="green.500" />
-                                    Training the students in techniques of handling stress and examination pressure with ease.
+                                    Selection in NTSE, JUNIOR SCIENCE OLYMPIAD & MATHEMATICAL OLYMPIADS. (for Future)
                                 </ListItem>
                                 <ListItem>
                                     <ListIcon as={FaCheckCircle} color="green.500" />
-                                    Top Ranks in JEE (MAIN & ADVANCED), SCIENCE OLYMPIAD & MATH OLYMPIAD.(Optional)
+                                    Solid Foundation for grabbing Top Ranks in JEE , NEET-UG & OLYMPIADS (for Future)
                                 </ListItem>
                             </List>
                             <Box w="80%" pt={7}>
